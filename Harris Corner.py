@@ -1,5 +1,6 @@
 import cv2 as cv
 import numpy as np
+
 img=cv.imread('ll.jpg')
 cv.imshow('frame',img)
 gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
